@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cheeky SOB</title>
+	<script>
+		var dateTimeSec = new Date().getTime();
+	</script>
+  </head>
+  <body>
+	Please paste the link that you cannot access in the text box below.<br> 
+	<input type="text" name="link_url" id="link_url"><br>
+	<input type="submit" value="Submit" id="link_button">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script  src="./js/index.js?v=<%=dateTimeSec%>"></script>
+  </body>
+</html>
